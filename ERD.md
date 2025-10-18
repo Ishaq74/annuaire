@@ -19,7 +19,7 @@
 │ • display_order  │         │ • description          │
 └────────┬─────────┘         └────────────────────────┘
          │
-         │ Auto-référentielle (hiérarchie)
+         │ auto-référentielle (hiérarchie)
          │
          └─────►
          
