@@ -43,6 +43,22 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## 📊 Database Documentation
+
+This project uses PostgreSQL (via Supabase) for data storage. Complete database documentation is available:
+
+- **[schema.sql](schema.sql)** - Complete SQL schema with all tables, columns, constraints, and indexes
+- **[DATABASE.md](DATABASE.md)** - Detailed documentation of each table, relationships, and usage
+- **[ERD.md](ERD.md)** - Visual Entity Relationship Diagram showing all tables and their relationships
+
+These files provide a complete understanding of the database structure, including:
+- All table definitions with field types and constraints
+- Foreign key relationships and cascading rules
+- Multilingual architecture with translation tables
+- Indexes for performance optimization
+- JSONB fields structure
+- Status values and business logic
+
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
